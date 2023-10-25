@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="column">
+                <select id="casaSelector" class="selector">
+                    <option value="">Selecciona tu casa</option>
+                    <option value="gryffindor">Gryffindor</option>
+                    <option value="slytherin">Slytherin</option>
+                    <option value="hufflepuff">Hufflepuff</option>
+                    <option value="ravenclaw">Ravenclaw</option>
+                </select>
+    
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img id="casaImage" src="img/Logo1.png" alt="Casa">
+                        </div>
+                        <div class="flip-card-back">
+                            <h2 id="casaName">Casas de Howarts</h2>
+                            <p id="casaFounder"></p>
+                            <p id="casaValues"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="column">
+                <select id="personajeSelector" class="selector">
+                    <option value="">Selecciona tu personaje</option>
+                    <option value="harry">Harry Potter</option>
+                    <option value="ron">Ron Weasley</option>
+                    <option value="hermione">Hermione Granger</option>
+                    <option value="cedric">Cedric Diggory</option>
+                    <option value="luna">Luna Lovegood</option>
+                    <option value="dumbledore">Albus Dumbledore</option>
+                    <option value="sirius">Sirius Black</option>
+                    <option value="snape">Severus Snape</option>
+                    <option value="draco">Draco Malfoy</option>
+                    <option value="voldemort">Lord Voldemort</option>
+                </select>
+    
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img id="personajeImage" src="img/Logo2.png" alt="Personaje">
+                        </div>
+                        <div class="flip-card-back">
+                            <h2 id="personajeName">Personajes</h2>
+                            <p id="personajeDescription"></p>
+                            <p id="personajeSpell"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="button" href="index.html">Regresar</a>
+        <script src="script.js"></script>
+</body>
+</html>
+
